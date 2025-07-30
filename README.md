@@ -37,6 +37,7 @@ sudo docker run --rm -it --gpus all --ipc=host \
   -p 8888:8888 \
   -v ./flux:/workspace/flux \
   -v ./experimentation:/workspace/experimentation \
+  -v ./experimentation_optimization:/workspace/experimentation_optimization \
   flux-extended
 ```
 
